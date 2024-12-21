@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;  
+    margin: 0;      
+  }
+  
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;  
+    overflow: hidden;  
+  }
+  
+  
+  header, footer {
+    background-color: #f0f0f0; 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+  article {
+    flex: 2;  
+    overflow-y: auto;  
+    background-color: #e0e0e0;  
+    padding: 15px;
+  }
+  
+  aside {
+    flex: 1; 
+    overflow-y: auto;  
+    background-color: #d0d0d0;  
+    padding: 15px;
+  }
+  
+ 
+  header, footer, article, aside {
+    border: 1px solid #ccc;
+  }
+  
+  
+  header h1, footer h1, article p, aside p {
+    margin: 10px;
+  }
+  
+  article p, aside p {
+    line-height: 1.5;
+  }
+  
