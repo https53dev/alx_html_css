@@ -1,0 +1,41 @@
+.ally-tst {
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 0.45px;
+    padding-right: 3px;
+    margin: 5px;
+    width: 365px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(221, 221, 221);
+  }
+  .cat-rmg {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+  }
+
+  .what-net {
+    font-family: arial;
+    color: rgb(123, 123, 123);
+    font-size: 15px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  .twt-bar {
+    background-color: rgb(11, 153, 241);
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    width: 70px;
+    height: 32px;
+    border-radius: 16px;
+    margin-left: 90px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
